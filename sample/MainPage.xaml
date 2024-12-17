@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="sample.MainPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ContentPage.Resources>
+        <Style x:Key="IconFont" TargetType="Label">
+            <Setter Property="FontFamily" Value="Icon" />
+            <Setter Property="FontSize" Value="32" />
+        </Style>
+        <Style x:Key="IconFontFilled" TargetType="Label">
+            <Setter Property="FontFamily" Value="IconFilled" />
+            <Setter Property="FontSize" Value="32" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+            <Image Aspect="AspectFit"
+                   HeightRequest="185"
+                   SemanticProperties.Description="dot net bot in a race car number eight"
+                   Source="dotnet_bot.png" />
+
+            <Label SemanticProperties.HeadingLevel="Level1"
+                   Style="{StaticResource Headline}"
+                   Text="Hello, World!" />
+
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="20">
+                <Label Style="{StaticResource IconFont}" Text="notifications" />
+                <Label Style="{StaticResource IconFontFilled}" Text="notifications" />
+                <Label Style="{StaticResource IconFont}" Text="mail" />
+                <Label Style="{StaticResource IconFontFilled}" Text="mail" />
+                <Label Style="{StaticResource IconFont}" Text="topic" />
+                <Label Style="{StaticResource IconFontFilled}" Text="topic" />
+                <Label Style="{StaticResource IconFont}" Text="contact_emergency" />
+                <Label Style="{StaticResource IconFontFilled}" Text="contact_emergency" />
+            </HorizontalStackLayout>
+
+            <Label SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                   SemanticProperties.HeadingLevel="Level2"
+                   Style="{StaticResource SubHeadline}"
+                   Text="Welcome to &#10;.NET Multi-platform App UI" />
+
+            <Button x:Name="CounterBtn"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Fill"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    Text="Click me" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
