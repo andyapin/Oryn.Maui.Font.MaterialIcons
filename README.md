@@ -1,6 +1,8 @@
 
 # Plugin.Toolkit.Fonts.MaterialIcons
 
+![icon](https://handityo.my.id/icon_nuget.png)
+
 [![NuGet](https://img.shields.io/nuget/v/Plugin.Toolkit.Fonts.MaterialIcons)](https://www.nuget.org/packages/Plugin.Toolkit.Fonts.MaterialIcons)
 [![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=flat&logo=dotnet&label=.NET%20MAUI)](https://dotnet.microsoft.com/en-us/apps/maui)
 
