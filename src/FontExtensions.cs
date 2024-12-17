@@ -9,7 +9,7 @@ public static class FontExtensions
     {
         var thisAssembly = typeof(FontExtensions).Assembly;
         fonts.AddEmbeddedResourceFont(thisAssembly, "MaterialSymbolsOutlined.ttf", FontAliases.MaterialIcon);
-        fonts.AddEmbeddedResourceFont(thisAssembly, "MaterialSymbolsOutlinedFilled.otf", FontAliases.MaterialIconFilled);
+        fonts.AddEmbeddedResourceFont(thisAssembly, "MaterialSymbolsOutlinedFilled.ttf", FontAliases.MaterialIconFilled);
         return fonts;
     }
 
@@ -20,7 +20,7 @@ public static class FontExtensions
     {
         var thisAssembly = typeof(FontExtensions).Assembly;
         fonts.AddEmbeddedResourceFont(thisAssembly, "MaterialSymbolsOutlined.ttf", FontAliases.Name + FontAliases.MaterialIcon);
-        fonts.AddEmbeddedResourceFont(thisAssembly, "MaterialSymbolsOutlinedFilled.otf", FontAliases.Name + FontAliases.MaterialIconFilled);
+        fonts.AddEmbeddedResourceFont(thisAssembly, "MaterialSymbolsOutlinedFilled.ttf", FontAliases.Name + FontAliases.MaterialIconFilled);
         return fonts;
     }
 }
