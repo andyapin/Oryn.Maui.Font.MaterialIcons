@@ -5,6 +5,12 @@
 
 [![NuGet](https://img.shields.io/nuget/v/Plugin.Toolkit.Fonts.MaterialIcons)](https://www.nuget.org/packages/Plugin.Toolkit.Fonts.MaterialIcons)
 [![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=flat&logo=dotnet&label=.NET%20MAUI)](https://dotnet.microsoft.com/en-us/apps/maui)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![Platform](https://img.shields.io/badge/Platform-Android-green)](https://www.android.com/)
+[![Platform](https://img.shields.io/badge/Platform-iOS-blue)](https://www.apple.com/ios/ios-16/)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D7)](https://www.microsoft.com/en-us/windows)
+[![Platform](https://img.shields.io/badge/Platform-macOS-00203a)](https://www.apple.com/macos/)
 
 **A comprehensive Material Icons font library for MAUI C# applications.**
 
