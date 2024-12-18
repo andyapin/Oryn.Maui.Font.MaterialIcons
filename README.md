@@ -45,8 +45,9 @@ Install-Package Plugin.Toolkit.Fonts.MaterialIcons
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-					fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-					fonts.AddMaterialIconsFonts(); // <-- add this
+    		fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+    		fonts.AddMaterialIconsFonts();  // <-- add this if using this font to global. using: FontFamily="Icon" (Icon or IconFilled)
+                    // fonts.AddMaterialIconsFontsPartial(); // <-- add this if using this font as partial. using: FontFamily="MaterialIcon" (MaterialIcon or MaterialIconFilled)
                 });
 
             return builder.Build();
