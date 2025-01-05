@@ -25,18 +25,13 @@
 		<Description>Integrate Material Icons font family into .NET MAUI</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>icon.png</PackageIcon>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)'=='Release'">
 		<DebugSymbols>false</DebugSymbols>
 		<DebugType>None</DebugType>
 	</PropertyGroup>
-
-	<ItemGroup>
-	  <None Remove="Resources\Fonts\MaterialSymbolsOutlined.ttf" />
-	  <None Remove="Resources\Fonts\MaterialSymbolsOutlinedFilled.ttf" />
-	</ItemGroup>
 
 	<ItemGroup>
 	  <EmbeddedResource Include="Resources\Fonts\MaterialSymbolsOutlined.ttf" />
