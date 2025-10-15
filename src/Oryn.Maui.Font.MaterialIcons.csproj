@@ -20,8 +20,8 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Authors>Ibnu Hajar Handityo</Authors>
 		<Copyright>© andyapin - www.handityo.my.id</Copyright>
-		<PackageProjectUrl>https://github.com/andyapin/Plugin.Toolkit.Fonts.MaterialIcons</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/andyapin/Plugin.Toolkit.Fonts.MaterialIcons</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/andyapin/Oryn.Maui.Font.MaterialIcons</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/andyapin/Oryn.Maui.Font.MaterialIcons</RepositoryUrl>
 		<PackageTags>plugin;toolkit;maui;font;android;ios;desktop;windows;mac</PackageTags>
 		<Description>Integrate Material Icons font family into .NET MAUI</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
@@ -36,7 +36,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="Plugin.Toolkit.Fonts.MaterialIcons.targets" Pack="True" PackagePath="buildTransitive\" />
+		<None Include="Oryn.Maui.Font.MaterialIcons.targets" Pack="True" PackagePath="buildTransitive\" />
 	</ItemGroup>
 	
 	<ItemGroup>

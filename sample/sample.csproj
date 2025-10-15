@@ -63,7 +63,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\src\Plugin.Toolkit.Fonts.MaterialIcons.csproj" />
+	  <ProjectReference Include="..\src\Oryn.Maui.Font.MaterialIcons.csproj" />
 	</ItemGroup>
 
 </Project>

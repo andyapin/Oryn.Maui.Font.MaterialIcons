@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-using Plugin.Toolkit.Fonts.MaterialIcons;
+using Oryn.Maui.Font.MaterialIcons;
 
 namespace sample
 {

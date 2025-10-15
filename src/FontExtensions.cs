@@ -1,4 +1,4 @@
-﻿namespace Plugin.Toolkit.Fonts.MaterialIcons;
+﻿namespace Oryn.Maui.Font.MaterialIcons;
 
 /// <summary>
 /// Provides extension methods for adding Material Icons fonts to an IFontCollection.

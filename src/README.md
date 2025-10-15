@@ -1,5 +1,5 @@
 
-# Plugin.Toolkit.Fonts.MaterialIcons
+# Oryn.Maui.Font.MaterialIcons
 
 **A comprehensive Material Icons font library for MAUI C# applications.**
 
@@ -18,7 +18,7 @@ This repository provides a convenient way to incorporate Google's Material Icons
 You can install the plugin via NuGet:
 
 ```bash
-Install-Package Plugin.Toolkit.Fonts.MaterialIcons
+Install-Package Oryn.Maui.Font.MaterialIcons
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ Install-Package Plugin.Toolkit.Fonts.MaterialIcons
     In your `MauiProgram.cs` file:
 
     ```csharp
-    using Plugin.Toolkit.Fonts.MaterialIcons;
+    using Oryn.Maui.Font.MaterialIcons;
 
     public static class MauiProgram
     {

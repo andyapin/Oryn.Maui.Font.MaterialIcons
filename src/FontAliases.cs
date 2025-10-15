@@ -1,4 +1,4 @@
-﻿namespace Plugin.Toolkit.Fonts.MaterialIcons
+﻿namespace Oryn.Maui.Font.MaterialIcons
 {
     internal class FontAliases
     {
